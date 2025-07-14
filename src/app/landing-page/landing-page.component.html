@@ -1,0 +1,120 @@
+<div class="bg-gray-50 text-gray-800">
+  <header class="relative bg-cover bg-center h-screen" style="background-image: url('https://images.pexels.com/photos/1684187/pexels-photo-1684187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+    <div class="absolute inset-0 bg-black opacity-40"></div>
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
+      <h1 class="text-5xl md:text-7xl font-bold mb-4">Your Decoration Business</h1>
+      <p class="text-lg md:text-2xl mb-8">Creating unforgettable moments with decorations you assemble yourself.</p>
+      <a href="#themes" class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300">
+        See Catalog
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section id="themes" class="py-20 px-4">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-12">Most Popular Themes</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="https://images.pexels.com/photos/3801463/pexels-photo-3801463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Children's Birthday Party" class="w-full h-64 object-cover">
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Children's Parties</h3>
+              <p class="text-gray-600">Magical themes that bring dreams to life for the little ones.</p>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="https://images.pexels.com/photos/5638732/pexels-photo-5638732.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Home Event" class="w-full h-64 object-cover">
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Home Events</h3>
+              <p class="text-gray-600">Elegant and cozy decorations for your intimate gatherings.</p>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Graduation Party" class="w-full h-64 object-cover">
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Graduations</h3>
+              <p class="text-gray-600">Celebrate achievements with our sophisticated decoration kits.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white py-20 px-4">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-12">How It Works</h2>
+        <div class="flex flex-col md:flex-row justify-center items-start gap-12">
+          <div class="flex flex-col items-center max-w-xs">
+            <div class="bg-pink-500 text-white rounded-full h-16 w-16 flex items-center justify-center mb-4">
+              <span class="text-3xl font-bold">1</span>
+            </div>
+            <h3 class="text-2xl font-bold mb-2">Choose Your Kit</h3>
+            <p class="text-gray-600">Browse our catalog and select the perfect decoration theme for your event.</p>
+          </div>
+          <div class="flex flex-col items-center max-w-xs">
+            <div class="bg-pink-500 text-white rounded-full h-16 w-16 flex items-center justify-center mb-4">
+              <span class="text-3xl font-bold">2</span>
+            </div>
+            <h3 class="text-2xl font-bold mb-2">Pick It Up</h3>
+            <p class="text-gray-600">Your pre-assembled decoration kit will be ready for you to pick up at our location.</p>
+          </div>
+          <div class="flex flex-col items-center max-w-xs">
+            <div class="bg-pink-500 text-white rounded-full h-16 w-16 flex items-center justify-center mb-4">
+              <span class="text-3xl font-bold">3</span>
+            </div>
+            <h3 class="text-2xl font-bold mb-2">Assemble & Enjoy</h3>
+            <p class="text-gray-600">Set up your party with ease using our simple instructions and enjoy the celebration!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 px-4">
+      <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-12">What Our Clients Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <p class="text-gray-600 italic mb-4">"The process was incredibly simple and the final result was amazing! The 'pick-up-and-assemble' model saved me a lot of time and money."</p>
+            <p class="font-bold text-pink-500">- Jessica L.</p>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <p class="text-gray-600 italic mb-4">"I rented a kit for my son's birthday, and he was thrilled. Everything was high-quality and easy to set up. Highly recommended!"</p>
+            <p class="font-bold text-pink-500">- David M.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-white py-20 px-4">
+      <div class="container mx-auto max-w-2xl text-center">
+        <h2 class="text-4xl font-bold mb-8">Get In Touch</h2>
+        <p class="text-gray-600 mb-8">Have questions or want to book a decoration kit? Send us a message!</p>
+        <form  class="text-left">
+          <div class="mb-4">
+            <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+            <input type="text" id="name" name="name" ngModel required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500">
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+            <input type="email" id="email" name="email" ngModel required email class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500">
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+            <textarea id="message" name="message" rows="5" ngModel required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500"></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit"  class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-full disabled:bg-gray-400 transition duration-300">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Your Decoration Business. All Rights Reserved.</p>
+    </div>
+  </footer>
+</div>
